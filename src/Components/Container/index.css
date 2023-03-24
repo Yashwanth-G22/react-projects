@@ -1,0 +1,38 @@
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.part{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.part button{
+    padding: 3px 5px;
+    cursor: pointer;
+}
+.btn-likes{
+    background-color: rgb(139, 245, 143);
+}
+.btn-dislikes{
+    background-color: rgb(234, 121, 121);
+}
+.likes{
+    background-color: rgb(8, 158, 23);
+}
+.dislikes{
+    background-color: rgb(144, 6, 6);
+}
+table,thead,th,td,tr{
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+}
+.table{
+    display: flex;
+    justify-content: center;
+    margin: 70px;
+}
