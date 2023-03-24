@@ -1,0 +1,10 @@
+table,thead,tbody{
+    width: 50%;
+    border: 2px solid black;
+    margin: 10px auto;
+}
+th,tr,td{
+    text-align: center;
+    border: 2px solid rgb(27, 29, 27);
+    
+}

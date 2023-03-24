@@ -1,0 +1,8 @@
+button{
+    width: 30px;
+    border-radius: 70%;
+    background-color: rgb(121, 121, 167);
+    position: absolute;
+    left: 73%;
+    transform: translate(6px,-10px);
+}
