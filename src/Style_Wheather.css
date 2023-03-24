@@ -1,0 +1,35 @@
+body{
+    background-image: url("https://media.istockphoto.com/id/860528756/photo/the-bandraworli-sea-link-mumbai-india.jpg?s=612x612&w=0&k=20&c=xT9TK7oYkP6TP62lHqP0H-9mfz9cWva4OcYEnt06cjc=");
+    background-repeat: no-repeat;
+    background-size: cover;
+       
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    margin: 10px auto;
+}
+#input{
+    width: 50%;
+    height: 30px;
+    color: rgb(3, 17, 21);
+    background-color: rgb(250, 253, 255);
+    border:3px solid rgb(35, 53, 35);
+    margin: 10px auto;
+    border-radius: 10px ;
+}
+#container>button{
+    width: 10%;
+    margin: 3px auto;
+}
+#lan,#lan~div{
+    display: flex;
+    justify-content: space-around;
+    color: rgb(245, 249, 243);
+}
+h1{
+    text-align: center;
+    box-shadow: 10px 2px 1px black;
+    font-style: italic;
+}   
+        

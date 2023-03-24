@@ -1,0 +1,49 @@
+.navbar{
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+    background-color: rgb(10, 10, 76);
+}
+#ul{
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 100px;
+}
+li{
+    list-style: none;
+    margin-left: 9px;
+
+}
+#ul li a{
+    margin: 3px;
+    list-style: none;
+    color: white;
+    text-decoration: none;
+    
+    
+}
+#logo{
+    margin-left: 50px;
+    letter-spacing: 1px;
+    font-size:30px;
+}
+#logo::first-letter{
+    border: 2px solid rgb(76, 36, 36);
+    cursor: pointer;
+    font-size: 35px;
+    border-radius: 10px 0;
+}
+#logo:hover:first-letter{
+    background-color: rgb(59, 38, 38);
+}
+#ul li a:hover{
+    color: aqua;
+    border-bottom:3px solid white;
+}
+#ul li a:active{
+    color: brown;
+}
+
